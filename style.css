@@ -1,0 +1,91 @@
+/* CSS DOCUMENT */
+@charset "utf-8";
+
+/* configuraciones */
+@font-face {
+    font-family: "Bricolage Grotesk Reg";
+    src: url(fuentes/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Corbel";
+    src: url(fuentes/corbel.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal
+}
+
+* {
+    font-family: 'Corbel', "Corbel", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(46, 46, 46);
+    font-size: 1rem;
+    text-decoration: none;
+    text-wrap-style: balance;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(251, 251, 251);
+}
+
+.botonera {
+    font-family: 'Bricolage Grotesk Reg', "Bricolage Grotesk", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(251, 251, 251);
+    text-align: center;
+    background-color:rgb(209, 209, 209);
+}
+
+/*aplicaciones*/
+
+h1 {
+    font-family: 'Bricolage Grotesk Reg', "Bricolage Grotesk", sans-serif;
+    font-variation-settings:"wght" 800;
+    font-size: 4rem;
+    color: rgb(95, 33, 95);
+    /*line-height: 0.3rem;*/
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Bricolage Grotesk Reg', "Bricolage Grotesk", sans-serif;
+    font-variation-settings: "wght"500;
+    font-style: normal;
+   /* line-height: 0.2rem;*/
+    color:rgb(95, 33, 95);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Bricolage Grotesk Reg', "Bricolage Grotesk Reg", sans-serif;
+    font-weight: 200;
+    font-size: 1.7rem;
+    line-height: 0.3rem;
+    color: rgb(177, 176, 176);
+}
+
+h4 {
+    font-family: 'Bricolage Grotesk Reg', "Bricolage Grotesk Reg", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    color: rgb(144, 91, 147);
+}
+
+footer {
+    background-color: rgb(207, 192, 221);
+    text-align: center;
+    line-height: 1rem;
+}
+
+#hero{
+    background-image: url(img/i4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
