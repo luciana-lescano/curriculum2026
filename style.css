@@ -21,10 +21,13 @@
     font-optical-sizing: auto;
     font-style: normal;
     color: rgb(46, 46, 46);
-    font-size: 1rem;
+    font-size: rem;
     text-decoration: none;
     text-wrap-style: balance;
     list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -32,49 +35,101 @@ body {
 }
 
 .botonera {
+    background-color: rgb(154, 127, 162);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+header a{
     font-family: 'Bricolage Grotesk Reg', "Bricolage Grotesk", sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: rgb(251, 251, 251);
-    text-align: center;
-    background-color:rgb(209, 209, 209);
+    font-variation-settings: "wght" 600;
+    font-size: 1.3rem;
+    color:  rgb(255, 250, 255);
 }
 
-/*aplicaciones*/
+.intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 50px;
+    gap: 40px;
+    justify-content: center;
+}
+p {
+    font-size: 1.8rem;
+    max-width: 800px;
+    line-height: 2.4rem;
+}
+
+.sobremi {
+    background-color: rgb(154, 127, 162);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 80px 10px;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.sobremi p { 
+    font-family: 'Corbel', "Corbel", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:  rgb(255, 250, 255);
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+
+.contenedor1, .contenedor2, .contenedor3 {
+    max-width: 550px;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 30px;
+    height: 450px;
+}
 
 h1 {
     font-family: 'Bricolage Grotesk Reg', "Bricolage Grotesk", sans-serif;
     font-variation-settings:"wght" 800;
-    font-size: 4rem;
-    color: rgb(95, 33, 95);
-    /*line-height: 0.3rem;*/
+    font-size: 9rem;
+    color:  rgb(255, 250, 255);
+    line-height: 6.5rem;
     text-align: center;
+    max-width: 630px;
 }
 
 h2 {
     font-family: 'Bricolage Grotesk Reg', "Bricolage Grotesk", sans-serif;
-    font-variation-settings: "wght"500;
+    font-variation-settings: "wght"600;
     font-style: normal;
-   /* line-height: 0.2rem;*/
-    color:rgb(95, 33, 95);
-    font-size: 1.2rem;
+    line-height: 7.5rem;
+    color: rgb(255, 250, 255);
+    font-size: 2.5rem;
     text-align: center;
 }
 
 h3 {
     font-family: 'Bricolage Grotesk Reg', "Bricolage Grotesk Reg", sans-serif;
-    font-weight: 200;
-    font-size: 1.7rem;
-    line-height: 0.3rem;
-    color: rgb(177, 176, 176);
+    font-variation-settings: "wght" 500;
+    font-size: 4.5rem;
+    line-height: 3.8rem;
+    color: rgb(117, 58, 124);
+    /*margin: 20px;
+    padding-top: 30px;*/
+    text-align: right;
+    max-width: 230px;
 }
 
 h4 {
     font-family: 'Bricolage Grotesk Reg', "Bricolage Grotesk Reg", sans-serif;
     font-weight: 200;
-    font-size: 1rem;
-    color: rgb(144, 91, 147);
+    font-size: 3rem;
+    line-height: 3.5rem;
+    color:  rgb(255, 250, 255);
 }
 
 footer {
@@ -84,8 +139,16 @@ footer {
 }
 
 #hero{
-    background-image: url(img/i4.jpg);
+    /*background-image: url(img/i4.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    background-color: rgb(154, 127, 162);
+    min-height: 10vh;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+/* Hasta hoy, 10/04 hice hasta acá, no pude hacer todo :D */
