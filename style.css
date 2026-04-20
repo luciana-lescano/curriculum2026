@@ -185,6 +185,7 @@ h4 {
         color: rgb(154, 127, 162);
         text-align: center;
         padding-top: 50px;
+        max-width: 100%;
     }
     h2 {
         color: rgb(154, 127, 162);
